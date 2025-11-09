@@ -15,7 +15,7 @@ body {
 /* Temas */
 .claro {
   --colornav: linear-gradient(120deg, #b6e6bd, #d7fbe888);
-  --fondo1: blue;
+  --fondo1: #f5fbef;
   --fondo2: #e1f3e6;
   --main: #b6e6cdbb;
   --container: #ffffff;
@@ -477,4 +477,5 @@ h2 {
     grid-row: 4/6;
   }
   
+
 }
