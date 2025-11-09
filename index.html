@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Energías Renovables - Colegio Antonio Villavicencio</title>
+  <link rel="stylesheet" href="erenovables.css">
+  <link rel="icon" href="https://static.wixstatic.com/media/7e31f2_1bdb44c0fea74248b788df42bb1d9c8d~mv2.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body class="claro" id="inicio">
+
+  <header>
+    <nav class="nav">
+      <div class="nav-left">
+        <ul class="ulnav" id="menu">
+          <li><a class="boton" href="#inicio">Inicio</a></li>
+          <li><a class="boton" href="#habitos">Hábitos</a></li>
+          <li><a class="boton" href="#portafile">Proyectos</a></li>
+          <li><a class="boton" href="#" onclick="cambiarTema()">Tema</a></li>
+        </ul>
+      </div>
+      <img src="escudo.png" alt="Escudo" class="escudo">
+    </nav>
+  </header>
+
+  <main >
+    <div class="contenedor">
+      <img src="panelof.png" alt="Energía" class="img">
+      <div class="texto">
+        <h2>¿Qué son las Energías Renovables?</h2>
+        <p class="pp">
+          Las energías renovables son fuentes de energía obtenidas de recursos naturales que se regeneran de manera continua, como la radiación solar, el viento, el agua, el calor del interior de la Tierra y la biomasa. A diferencia de los combustibles fósiles, estas energías son limpias, sostenibles y contribuyen a reducir las emisiones de gases de efecto invernadero, ayudando a mitigar el cambio climático.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <section id="habitos" class="sec">
+    <div class="grid2">
+      <div class="card">
+        <div class="imgduki"><img src="awa.jpg" alt="Cerrar llave"></div>
+        <div class="data">
+          <span>Cerrar la llave del agua</span>
+          <p>Cerrar el grifo ayuda a ahorrar agua, proteger el ambiente y reducir gastos innecesarios.<br></p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgduki"><img src="luz.jpg" alt="Apagar aparatos"></div>
+        <div class="data">
+          <span>Apagar electrónicos no usados</span>
+          <p>Reduce el consumo eléctrico y la contaminación, prolongando la vida útil de los dispositivos.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgduki"><img src="botle.jpg" alt="Envases rellenables"></div>
+        <div class="data">
+          <span>Usar envases rellenables</span>
+          <p>Reduce el plástico, cuida el medioambiente y fomenta el consumo responsable.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgduki"><img src="caneca.jpg" alt="Reducir residuos"></div>
+        <div class="data">
+          <span>Reducir residuos generados</span>
+          <p>Ayuda a evitar la contaminación, ahorrar recursos y disminuir desechos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portafile" class="portafile">
+    <h2 class="portafilename">Proyectos Ambientales</h2>
+    <div class="collage-grid">
+      <div class="box box1">
+        <h2 class="projectname"><a href="periodico.pdf" target="_blank" >PERIÓDICO ESCOLAR</a></h2>
+      </div>
+      <div class="box box2">
+        <h2 class="projectname"><a href="articulo2.html" >EDUCACION AMBIENTAL: ECO-APRENDIZAJE</a></h2>
+      </div>
+    
+      <div class="box box4">
+        <h2 class="projectname"><a href='articulo.html'>DESARROLLO SOSTENIBLE: ECO-BOTELLAS</a></h2>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <ul class="iconosf">
+      <li class="iconf"><a href="https://www.youtube.com/@colegioantoniovillavicenci4833/featured" class="aicon" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a></li>
+      <li class="iconf"><a href="https://www.instagram.com/iedantoniovillavicencio/" class="aicon" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+      <li class="iconf"><a href="https://www.facebook.com/Villantino/?locale=es_LA" class="aicon" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+    </ul>
+    <ul class="ulfoot">
+      <li class="lifoot"><a href="#inicio" class="afoot">Inicio</a></li>
+      <li class="lifoot"><a href="#habitos" class="afoot">Hábitos</a></li>
+      <li class="lifoot"><a href="#portafile" class="afoot">Proyectos</a></li>
+      <li class="lifoot"><a href="https://www.redacademica.edu.co/colegios/colegio-antonio-villavicencio-ied" class="afoot" target="_blank">Sobre Nosotros</a></li>
+    </ul>
+    <p class="pfoot">@1101 JM - Emanuel Orjuela Barbosa</p>
+  </footer>
+
+ 
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  <script>
+    function cambiarTema() {
+      document.body.classList.toggle('oscuro');
+      document.body.classList.toggle('claro');
+    }
+  </script>
+</body>
+</html>
