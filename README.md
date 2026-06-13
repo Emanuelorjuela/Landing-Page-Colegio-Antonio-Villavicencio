@@ -136,8 +136,6 @@ The current structure facilitates this transition without the need for a complet
 
 **Eloxb Developer**  
 
-Email: eloxbdeveloper@gmail.com  
-
 Instagram: https://www.instagram.com/develoxb
 
 Github: https://github.com/Eloxbdeveloper
